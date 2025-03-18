@@ -14,7 +14,8 @@ public class Patients {
     private int age;
     private String priority;
     private String gpDetails;
-
+    
+    //Constructor
     public Patients(String name, int age, String priority, String gpDetails) {
         this.name = name;
         this.age = age;
@@ -56,6 +57,9 @@ public class Patients {
         this.gpDetails = gpDetails;
     }
     
-    
+    @Override
+    public String toString() {
+        return "Patient Name: " + name + ", Age: " + age + ", Priority: " + priority + ", GP: " + gpDetails;
+    }
     
 }

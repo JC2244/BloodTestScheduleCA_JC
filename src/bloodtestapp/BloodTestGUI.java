@@ -4,6 +4,8 @@
  */
 package bloodtestapp;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author canno
@@ -16,6 +18,10 @@ public class BloodTestGUI extends javax.swing.JFrame {
     public BloodTestGUI() {
         initComponents();
     }
+    
+    public void displayAllPatients(String patientList) {//Display Patients to allPatientsTA
+        allPatientsTA.setText(patientList);  
+    }       
 
     /**
      * This method is called from within the constructor to initialize the form.
