@@ -42,7 +42,11 @@ public class BloodTestApp {
         //Display to BloodTestGUI
         String allPatients = patientStack.displayAllPatients();  
         mygui.displayAllPatients(allPatients);  
-    
+        String finalPatientList = patientStack.displayFinalPatients();  
+        mygui.displayFinalPatients(finalPatientList);  
+        String firstPatient = patientStack.displayFirstPatient();  
+        mygui.displayFirstPatient(firstPatient);
+
     }
     
 }

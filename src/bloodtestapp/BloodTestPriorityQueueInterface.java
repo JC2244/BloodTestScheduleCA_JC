@@ -9,5 +9,10 @@ package bloodtestapp;
  * @author canno
  */
 public interface BloodTestPriorityQueueInterface {
+    String sortPatientsPriority();
+    String displayFinalPatients();
+    String displayFirstPatient();
+    String displayNextPatient();
+    String displayPrevPatient();
     
 }
